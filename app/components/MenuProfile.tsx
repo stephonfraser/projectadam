@@ -10,7 +10,7 @@ const MenuProfile = () => {
             <div className="userName text-[12px]">
                 Stephon Fraser
             </div>
-            <div className="userType text-[10px] text-gray-800">
+            <div className="userType text-[10px] text-gray-400">
                 Adminstrator
             </div>
         </div>
