@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,15 +19,9 @@
   }
 }
 
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
+body {
+  background-color: #FFF7DB;
+}
 
 @layer utilities {
   .text-balance {
@@ -37,5 +32,26 @@
 .vt323-regular {
   font-family: "VT323", monospace;
   font-weight: 400;
+  font-style: normal;
+}
+
+.spline-sans-light {
+  font-family: "Spline Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.spline-sans-regular {
+  font-family: "Spline Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spline-sans-medium {
+  font-family: "Spline Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
 }
