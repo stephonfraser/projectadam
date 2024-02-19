@@ -4,7 +4,7 @@ import SignButton from '../components/buttons/SignButton'
 import { useState } from 'react'
 
 const page = () => {
-  const [pageLocation, setPageLocation] = useState(2);
+  const [pageLocation, setPageLocation] = useState(0);
   const [subheading, setSubheading] = useState("Complete your setup");
 
   const handleButtonClick = (pageNumber: number, pageSubHeading: string) => {
