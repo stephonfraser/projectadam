@@ -22,7 +22,6 @@ const Navbar = () => {
           <MenuItems menuName='Inventory' status='inactive'/>
           <MenuItems menuName='Sales' status='inactive'/>
           <MenuItems menuName='Customers' status='inactive'/>
-          <MenuItems menuName='Offers' status='inactive'/>
           <MenuItems menuName='Receipts' status='inactive'/>
           <MenuMore moreType='more'/>
         </div>
