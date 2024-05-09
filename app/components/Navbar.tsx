@@ -4,12 +4,10 @@ import Link from 'next/link'
 import MenuItems from './MenuItems'
 import MenuMore from './MenuMore'
 import MenuProfile from './MenuProfile'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleUser } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
   return (
-    <nav className=' flex navbar p-10 items-center w-full'>
+    <nav className='flex navbar p-8 items-center w-full truncate'> 
       <div className='logoname flex items-center space-x-4'>
         <Link href={"/dashboard"}>
           <Image src="/images/logo.png" alt="logo" width={50} height={50} style={{objectFit: "contain"}}	/>
@@ -31,6 +29,9 @@ const Navbar = () => {
           {/* <MenuMore moreType='profile'/> */}
           <MenuProfile />
         </div>
+      </div>
+      <div className='hidden'>
+        0
       </div>
     </nav>
   )
